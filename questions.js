@@ -1,56 +1,44 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "I am often in my own head, pondering about thoughts, emotions, or memories.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 10,
+            "expr": 0,
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "I often hatch patterns, ideas, and feelings from my own head.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 10,
+            "expr": 0,
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "I often hide my own emotions, and I often am described as a pushover or passive.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 0,
+            "expr": -10,
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "I oftentimes preach peace, stability, and harmony across all aspects of life.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 0,
+            "expr": -10,
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "Oftentimes I am primarily motivated by popularity, glory, and for my place in the world to be known",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "intr": -10,
+            "expr": 5,
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "I am often described as loud, extroverted, or productive.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "intr": -10,
+            "expr": 0,
         }
     },
     {
