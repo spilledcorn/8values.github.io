@@ -43,10 +43,10 @@ ideologies = [
         }
     },
     {
-        "name": "The Hermit",
+        "name": "The Peacemaker",
         "stats": {
-            "econ": 75,
-            "dipl": 25
+            "intr": 75,
+            "expr": 25
         }
     },
     {
