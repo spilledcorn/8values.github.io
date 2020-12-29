@@ -3,199 +3,165 @@ questions = [
         "question": "I am often in my own head, pondering about thoughts, emotions, or memories.",
         "effect": {
             "intr": 10,
-            "expr": 0,
+            "expr": 0
         }
     },
     {
         "question": "I often hatch patterns, ideas, and feelings from my own head.",
         "effect": {
             "intr": 10,
-            "expr": 0,
+            "expr": 0
         }
     },
     {
         "question": "I often hide my own emotions, and I often am described as a pushover or passive.",
         "effect": {
             "intr": 0,
-            "expr": -10,
+            "expr": -10
         }
     },
     {
         "question": "I oftentimes preach peace, stability, and harmony across all aspects of life.",
         "effect": {
             "intr": 0,
-            "expr": -10,
+            "expr": -10
         }
     },
     {
         "question": "Oftentimes I am primarily motivated by popularity, glory, and for my place in the world to be known",
         "effect": {
             "intr": -10,
-            "expr": 5,
+            "expr": 5
         }
     },
     {
         "question": "I am often described as loud, extroverted, or productive.",
         "effect": {
             "intr": -10,
+            "expr": 0
+        }
+    },
+    {
+        "question": "Whenever I feel sad, I oftentimes try to cope by talking with others about it, crying, and feeling catharsis.",
+        "effect": {
+            "intr": 0,
+            "expr": 10
+        }
+    },
+    {
+        "question": "I oftentimes express my complaints loud and clear, in case people haven't gotten the memo.",
+        "effect": {
+            "intr": -5,
+            "expr": 0
+        }
+    },
+    {
+        "question": "I am proactive, oftentimes depending on my own goals, logic, emotions, and world in order to get motivated.",
+        "effect": {
+            "intr": 10,
+            "expr": 0
+        }
+    },
+    {
+        "question": "I feel detached from reality, I am described as aloof or cold, and I comply with demands without fuss.",
+        "effect": {
+            "intr": 10,
+            "expr": -5
+        }
+    },
+    {
+        "question": "I try to provide harmony by helping others, organizing, and being the person who you woulld ask for help.",
+        "effect": {
+            "intr": -5,
+            "expr": -10
+        }
+    },
+    {
+        "question": "I am not one to intervene in any way, but instead manipulate my environment from the sidelines, if I change anything at all.",
+        "effect": {
+            "intr": 5,
+            "expr": -10
+        }
+    },
+    {
+        "question": "I oftentimes promote the group, rationality, and/or practicality.",
+        "effect": {
+            "intr": -10,
+            "expr": 0
+        }
+    },
+    {
+        "question": "I feel like I am in tune with others' emotions, and I like to give others warmth directly, and I never get tired doing so.",
+        "effect": {
+            "intr": -10,
             "expr": 0,
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "My own moral code is best, and those who deviate from said morality are crooked or crazy, with those without morality being the worst of the worst.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 0,
+            "expr": 10
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "I am a moral person, and I feel like expressing and defending said morality is my main way of living.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 0,
+            "expr": 10
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "I am easily tired from both others and the environment, as a result I am sensitive to people, noises, lights, and draining activities.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 10,
+            "expr": 0
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "I like being alone, and I don't feel lonely much.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "intr": 10,
+            "expr": 5,
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "I oftentimes hide my emotions because I see them as inefficient, and whenever they come up I repress them immediately.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": -5,
+            "expr": -10,
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "I feel like my emotions and morals don't matter compared to the group, and I spend an excessive amount of time dedicating myself to it.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": -5,
+            "expr": -10
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "I believe in the tried and true.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": -10,
+            "expr": 0
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "I have an endless need to stay productive, and to be successful socially, monetarily, or some other way.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "intr": -10,
+            "expr": -5
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Good and Evil exist and whoever denies so may as well be on the side they believe as wrong.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "intr": 0,
+            "expr": 10
         }
     },
     {
-        "question": "The United Nations should be abolished.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Military action by our nation is often necessary to protect it.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "It is important to maintain our national sovereignty.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Wars do not need to be justified to other countries.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Military spending is a waste of money.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "International aid is a waste of money.",
+        "question": "I am described as irrational, while in reality I am simply passionate about said subjects and I am upset when they are violated.",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -204,417 +170,62 @@ questions = [
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "Productivity, tradition, others, and your standing is important, at least to me",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "intr": -10,
+            "expr": 0,
+
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "Defending what you believe is important, and I feel an intense need to do so.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "intr": 0,
+            "expr": 10
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Nothing is important really, besides what you deem to be good, as long as you leave me be.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
+            "intr": 10,
+            "expr": 0
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "It is imporant to just ignore your individual drive or tradition, and simply focus on being kind.",
         "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
+            "intr": 0,
+            "expr": -10
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "It is important to be altruistic and be there at all times.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
+            "intr": -10,
+            "expr": -10
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is very important to maintain law and order.",
-        "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
-        }
-    },
-    {
-        "question": "The general populace makes poor decisions.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Physician-assisted suicide should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Government surveillance is necessary in the modern world.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The very existence of the state is a threat to our liberty.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Regardless of political opinions, it is important to side with your country.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
-        }
-    },
-    {
-        "question": "All authority should be questioned.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "A hierarchical state is best.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "A better world will come from automation, science, and technology.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Children should be educated in religious or traditional values.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Traditions are of no value on their own.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Religion should play a role in government.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Drug use should be legalized or decriminalized.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 2
-        }
-    },
-    {
-        "question": "Same-sex marriage should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "No cultures are superior to others.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Sex outside marriage is immoral.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Abortion should be prohibited in most or all cases.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "It is important to spread harmony, peace, and tranquility above all else.",
         "effect": {
             "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Prostitution should be illegal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Maintaining family values is essential.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "We should open our borders to immigration.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
-        "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we further my group's goals above all others.",
-        "effect": {
-            "econ": -10,
             "dipl": -10,
-            "govt": -10,
-            "scty": -10
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "It is important to spread individuality and individual morality above all else.",
+        "effect": {
+            "intr": 10,
+            "expr": 10
+        }
+    },
+    {
+        "question": "It is important that we further tradition and the real above all else.",
+        "effect": {
+            "intr": -10,
+            "expr": 10
         }
     }
 ];
