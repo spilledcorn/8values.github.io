@@ -48,18 +48,16 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
-    var econ, dipl, govt, scty; // User's scores
-    econ = dipl = govt = scty = 0;
+    var max_intr, max_expr, // Max possible scores
+    max_intr = max_expr = 0;
+    var intr, expr,; // User's scores
+    intr = expr = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
-        max_govt += Math.abs(questions[i].effect.govt)
-        max_scty += Math.abs(questions[i].effect.scty)
+        max_intr += Math.abs(questions[i].effect.intr)
+        max_expr += Math.abs(questions[i].effect.expr)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -75,10 +73,8 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ += mult*questions[qn].effect.econ
-        dipl += mult*questions[qn].effect.dipl
-        govt += mult*questions[qn].effect.govt
-        scty += mult*questions[qn].effect.scty
+        intr += mult*questions[qn].effect.intr
+        expr += mult*questions[qn].effect.expr
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -92,10 +88,8 @@ stats"></a></div></noscript>
             return;
         }
         qn--;
-        econ -= prev_answer * questions[qn].effect.econ;
-        dipl -= prev_answer * questions[qn].effect.dipl;
-        govt -= prev_answer * questions[qn].effect.govt;
-        scty -= prev_answer * questions[qn].effect.scty;
+        intr -= prev_answer * questions[qn].effect.intr;
+        expr -= prev_answer * questions[qn].effect.expr;
         prev_answer = null;
         init_question();
 
@@ -105,10 +99,8 @@ stats"></a></div></noscript>
     }
     function results() {
         location.href = `results.html`
-            + `?e=${calc_score(econ,max_econ)}`
-            + `&d=${calc_score(dipl,max_dipl)}`
-            + `&g=${calc_score(govt,max_govt)}`
-            + `&s=${calc_score(scty,max_scty)}`
+            + `?e=${calc_score(intr,max_intr)}`
+            + `&d=${calc_score(expr,max_expr)}`
     }
 </script>
 </body>
